@@ -1,7 +1,7 @@
 from typing import TYPE_CHECKING
 
 if TYPE_CHECKING:
-    from fancy.event_bus import EventLoop
+    from fancy.eventbus import EventLoop
 
 
 class StartEvent:

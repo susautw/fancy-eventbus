@@ -1,7 +1,7 @@
-from fancy.event_bus import EventBus, EventListener
-from fancy.event_bus.events import StartEvent
-from fancy.event_bus.execeptions import FancyEventBusException
-from fancy.event_bus.scheduler import SchedulerBase
+from fancy.eventbus import EventBus, EventListener
+from fancy.eventbus.events import StartEvent
+from fancy.eventbus.execeptions import FancyEventBusException
+from fancy.eventbus.scheduler import SchedulerBase
 
 
 class EventLoop:

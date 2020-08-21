@@ -3,7 +3,7 @@
 # Usage
 
 ```python
-import fancy.event_bus as fe
+import fancy.eventbus as fe
 
 
 class MyEvent:

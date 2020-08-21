@@ -1,7 +1,7 @@
 from typing import Dict, List
 
-from fancy.event_bus import EventListener, EventScheduler
-from fancy.event_bus.scheduler import SchedulerBase
+from fancy.eventbus import EventListener, EventScheduler
+from fancy.eventbus.scheduler import SchedulerBase
 
 
 class EventBus:

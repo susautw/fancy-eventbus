@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-from fancy.event_bus import EventListener
+from fancy.eventbus import EventListener
 
 
 class ExecutorBase(ABC):

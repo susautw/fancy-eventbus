@@ -1,5 +1,5 @@
-from fancy.event_bus import EventListener
-from fancy.event_bus.executor import ExecutorBase
+from fancy.eventbus import EventListener
+from fancy.eventbus.executor import ExecutorBase
 
 
 class MainExecutorBase(ExecutorBase):

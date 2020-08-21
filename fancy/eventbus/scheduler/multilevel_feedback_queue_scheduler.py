@@ -1,7 +1,7 @@
 from collections import deque
 from typing import List, Deque, Optional, TypeVar
 
-from fancy.event_bus.scheduler import SchedulerBase, Prioritiable
+from fancy.eventbus.scheduler import SchedulerBase, Prioritiable
 
 T = TypeVar("T", bound=Prioritiable)
 

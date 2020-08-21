@@ -1,4 +1,4 @@
-from fancy.event_bus.execeptions import FancyEventBusException
+from fancy.eventbus.execeptions import FancyEventBusException
 
 
 class StopLoopingException(FancyEventBusException):

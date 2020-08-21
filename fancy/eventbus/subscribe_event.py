@@ -1,7 +1,7 @@
 from typing import Callable
 
-from fancy.event_bus import EventPriority, EventExecutor, EventListener
-from fancy.event_bus.executor import ExecutorBase
+from fancy.eventbus import EventPriority, EventExecutor, EventListener
+from fancy.eventbus.executor import ExecutorBase
 
 
 class SubscribeEvent:

@@ -3,10 +3,10 @@ from typing import Callable, Optional, TYPE_CHECKING, get_type_hints
 
 import fancy.descriptor as fd
 
-from fancy.event_bus.scheduler import Prioritiable
+from fancy.eventbus.scheduler import Prioritiable
 
 if TYPE_CHECKING:
-    from fancy.event_bus.executor import ExecutorBase
+    from fancy.eventbus.executor import ExecutorBase
 
 
 class EventListener(fd.MethodDescriptor, Prioritiable):

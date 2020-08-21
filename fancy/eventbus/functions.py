@@ -1,4 +1,4 @@
-from fancy.event_bus import EventBus
+from fancy.eventbus import EventBus
 
 """
 Provide some convenient functions
